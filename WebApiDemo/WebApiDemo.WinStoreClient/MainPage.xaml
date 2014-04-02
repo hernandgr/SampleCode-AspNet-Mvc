@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="WebApiDemo.WinStoreClient.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WebApiDemo.WinStoreClient"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock HorizontalAlignment="Left" Margin="184,182,0,0" TextWrapping="Wrap" Text="Id" VerticalAlignment="Top" FontSize="24"/>
+        <TextBox x:Name="txtId" HorizontalAlignment="Left" Margin="304,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="269"/>
+        <TextBlock HorizontalAlignment="Left" Margin="184,236,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" FontSize="24"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="304,233,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="269"/>
+        <TextBlock HorizontalAlignment="Left" Margin="184,298,0,0" TextWrapping="Wrap" Text="Price" VerticalAlignment="Top" FontSize="24"/>
+        <TextBox x:Name="txtPrice" HorizontalAlignment="Left" Margin="304,295,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="269"/>
+        <Button x:Name="btnSearch" Content="Search" HorizontalAlignment="Left" Margin="325,375,0,0" VerticalAlignment="Top" Height="59" Width="129" Click="btnSearch_Click" />
+    </Grid>
+</Page>
